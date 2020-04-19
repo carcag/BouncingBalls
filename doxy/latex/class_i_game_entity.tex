@@ -1,0 +1,82 @@
+\hypertarget{class_i_game_entity}{}\doxysection{I\+Game\+Entity Class Reference}
+\label{class_i_game_entity}\index{IGameEntity@{IGameEntity}}
+
+
+Inheritance diagram for I\+Game\+Entity\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_i_game_entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+Game\+Entity\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_i_game_entity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a4ed2f9756c6a1601db2b3f442651adc3}\label{class_i_game_entity_a4ed2f9756c6a1601db2b3f442651adc3}} 
+virtual const sf\+::\+Vector2f {\bfseries get\+Position} () const =0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a14d8ecd6f83e7f5f11922e26b4664360}\label{class_i_game_entity_a14d8ecd6f83e7f5f11922e26b4664360}} 
+virtual const std\+::string {\bfseries get\+Type} () const =0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a7308184a3c730ac9d1c0afc7bc212bc5}\label{class_i_game_entity_a7308184a3c730ac9d1c0afc7bc212bc5}} 
+virtual void {\bfseries set\+Position} (sf\+::\+Vector2f v)=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a44c64abcff16e346a818d237a1611dfd}\label{class_i_game_entity_a44c64abcff16e346a818d237a1611dfd}} 
+virtual void {\bfseries make\+A\+Tick} ()=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_af05c50c4b705b92d4e85c45b299d9043}\label{class_i_game_entity_af05c50c4b705b92d4e85c45b299d9043}} 
+virtual sf\+::\+Shape \& {\bfseries get\+Shape} ()=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a7b8bc3b05207f50bcb1d5580e887c6fa}\label{class_i_game_entity_a7b8bc3b05207f50bcb1d5580e887c6fa}} 
+virtual bool {\bfseries get\+Mov\+X\+Sens} ()=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_adbf6e6bc83048ac9fcf2c1a3877abe31}\label{class_i_game_entity_adbf6e6bc83048ac9fcf2c1a3877abe31}} 
+virtual bool {\bfseries get\+Mov\+Y\+Sens} ()=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_aa0cddf6f8465a0fcc9f6dc9e27cf7318}\label{class_i_game_entity_aa0cddf6f8465a0fcc9f6dc9e27cf7318}} 
+virtual void {\bfseries collideX} (bool dir\+Changed, float dir\+Vector=0.f)=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a455804e9bc6064207363010540f6c8c4}\label{class_i_game_entity_a455804e9bc6064207363010540f6c8c4}} 
+virtual void {\bfseries collideY} (bool dir\+Changed, float dir\+Vector=0.f)=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a4fee76dbec5002af4b7333bbeded8ff9}\label{class_i_game_entity_a4fee76dbec5002af4b7333bbeded8ff9}} 
+virtual const float {\bfseries get\+SpeedX} () const =0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a814fc3270996e076c8187a267f2db376}\label{class_i_game_entity_a814fc3270996e076c8187a267f2db376}} 
+virtual const float {\bfseries get\+SpeedY} () const =0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_af5fda6701108f29c23128269f67a258d}\label{class_i_game_entity_af5fda6701108f29c23128269f67a258d}} 
+virtual void {\bfseries set\+Collide\+Checked} (bool state)=0
+\item 
+\mbox{\Hypertarget{class_i_game_entity_ac5e71f342326e4de06a5187d9ef18ecb}\label{class_i_game_entity_ac5e71f342326e4de06a5187d9ef18ecb}} 
+virtual bool {\bfseries get\+Collide\+Checked} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a5052a6b8755cd11beedf70b0afc646d1}\label{class_i_game_entity_a5052a6b8755cd11beedf70b0afc646d1}} 
+int {\bfseries m\+\_\+id}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_game_entity_ad82294017e0963047e638d3e5f8be568}\label{class_i_game_entity_ad82294017e0963047e638d3e5f8be568}} 
+std\+::string {\bfseries m\+\_\+type}
+\item 
+\mbox{\Hypertarget{class_i_game_entity_a74bc12fe52f980d66a35e46ab1e62ad4}\label{class_i_game_entity_a74bc12fe52f980d66a35e46ab1e62ad4}} 
+bool {\bfseries m\+\_\+collide\+Checked}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+S\+F\+M\+L\+\_\+\+Pong/I\+Game\+Entity.\+h\end{DoxyCompactItemize}

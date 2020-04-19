@@ -1,0 +1,114 @@
+\hypertarget{class_ball}{}\doxysection{Ball Class Reference}
+\label{class_ball}\index{Ball@{Ball}}
+
+
+Inheritance diagram for Ball\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_ball__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ball\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_ball__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a07f366ee74bd899aef4a9ab33afd0a23}\label{class_ball_a07f366ee74bd899aef4a9ab33afd0a23}} 
+{\bfseries Ball} (float x, float y)
+\item 
+\mbox{\Hypertarget{class_ball_ad5c581f9a1649b40b1f8ee4bf16cd07f}\label{class_ball_ad5c581f9a1649b40b1f8ee4bf16cd07f}} 
+{\bfseries Ball} (float x, float y, sf\+::\+Color color)
+\item 
+\mbox{\Hypertarget{class_ball_a052342a6752f28495d663f4b45248ce5}\label{class_ball_a052342a6752f28495d663f4b45248ce5}} 
+{\bfseries Ball} (float x, float y, sf\+::\+Color color, double speed, double speedY)
+\item 
+\mbox{\Hypertarget{class_ball_a672da3b511f6b30fde82a63927fe8174}\label{class_ball_a672da3b511f6b30fde82a63927fe8174}} 
+virtual const sf\+::\+Vector2f {\bfseries get\+Position} () const
+\item 
+\mbox{\Hypertarget{class_ball_a25f7dea793ca6f3f29748b5ec794efbe}\label{class_ball_a25f7dea793ca6f3f29748b5ec794efbe}} 
+virtual const std\+::string {\bfseries get\+Type} () const
+\item 
+\mbox{\Hypertarget{class_ball_a507e3029dad5fe68a6d0014a71a75fe8}\label{class_ball_a507e3029dad5fe68a6d0014a71a75fe8}} 
+virtual void {\bfseries set\+Position} (sf\+::\+Vector2f v)
+\item 
+\mbox{\Hypertarget{class_ball_adbab506a05e6a6cb3d1fb149489762e4}\label{class_ball_adbab506a05e6a6cb3d1fb149489762e4}} 
+virtual void {\bfseries make\+A\+Tick} ()
+\item 
+\mbox{\Hypertarget{class_ball_af633517847fe39633abc0d1aea27a737}\label{class_ball_af633517847fe39633abc0d1aea27a737}} 
+virtual sf\+::\+Circle\+Shape \& {\bfseries get\+Shape} ()
+\item 
+\mbox{\Hypertarget{class_ball_a3284a861a0eafbc1632cbc4093865c55}\label{class_ball_a3284a861a0eafbc1632cbc4093865c55}} 
+virtual void {\bfseries collideX} (bool dir\+Changed, float dir\+Vector=0.f)
+\item 
+\mbox{\Hypertarget{class_ball_a66e6ecb2fc87532ecbdf9e6f6948a7d3}\label{class_ball_a66e6ecb2fc87532ecbdf9e6f6948a7d3}} 
+virtual void {\bfseries collideY} (bool dir\+Changed, float dir\+Vector=0.f)
+\item 
+\mbox{\Hypertarget{class_ball_a5f41d2dc1541d11bac543d86ddd47157}\label{class_ball_a5f41d2dc1541d11bac543d86ddd47157}} 
+virtual bool {\bfseries get\+Mov\+X\+Sens} ()
+\item 
+\mbox{\Hypertarget{class_ball_a0c470da05a54d90ce63d7f501f3af1fc}\label{class_ball_a0c470da05a54d90ce63d7f501f3af1fc}} 
+virtual bool {\bfseries get\+Mov\+Y\+Sens} ()
+\item 
+\mbox{\Hypertarget{class_ball_ac4a7493659c59b6e2ae73c908d13f71f}\label{class_ball_ac4a7493659c59b6e2ae73c908d13f71f}} 
+virtual const float {\bfseries get\+SpeedX} () const
+\item 
+\mbox{\Hypertarget{class_ball_ad79d214c9b5ce9506b38d1aa7aec87b9}\label{class_ball_ad79d214c9b5ce9506b38d1aa7aec87b9}} 
+virtual const float {\bfseries get\+SpeedY} () const
+\item 
+\mbox{\Hypertarget{class_ball_a8627fca824118de2643fca35be7f2b99}\label{class_ball_a8627fca824118de2643fca35be7f2b99}} 
+virtual void {\bfseries set\+Collide\+Checked} (bool state)
+\item 
+\mbox{\Hypertarget{class_ball_a3d2cf97c49d0cbf2e0bc8fe7ad30c7f6}\label{class_ball_a3d2cf97c49d0cbf2e0bc8fe7ad30c7f6}} 
+virtual bool {\bfseries get\+Collide\+Checked} ()
+\item 
+\mbox{\Hypertarget{class_ball_a1370321640491bed533338dec572c476}\label{class_ball_a1370321640491bed533338dec572c476}} 
+virtual void {\bfseries valid\+Color\+Generator} (int \&r, int \&g, int \&b)
+\item 
+\mbox{\Hypertarget{class_ball_a0151aa6d27938649472bcf5b3cbfcd60}\label{class_ball_a0151aa6d27938649472bcf5b3cbfcd60}} 
+virtual void {\bfseries valid\+Speed\+Generator} ()
+\item 
+\mbox{\Hypertarget{class_ball_aa619d5b44db28b5b27cafb30067cb4b6}\label{class_ball_aa619d5b44db28b5b27cafb30067cb4b6}} 
+virtual void {\bfseries set\+Speed} (double speedX, double speedY)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a426239d86f3dc084dc07898a6ca47c9f}\label{class_ball_a426239d86f3dc084dc07898a6ca47c9f}} 
+sf\+::\+Circle\+Shape {\bfseries m\+\_\+shape}
+\item 
+\mbox{\Hypertarget{class_ball_a4c35780999f4fdddcd9b928b9e1cc990}\label{class_ball_a4c35780999f4fdddcd9b928b9e1cc990}} 
+bool {\bfseries m\+\_\+mov\+X\+Sens}
+\item 
+\mbox{\Hypertarget{class_ball_ab32027c329e947b9cda6025b1e17633e}\label{class_ball_ab32027c329e947b9cda6025b1e17633e}} 
+bool {\bfseries m\+\_\+mov\+Y\+Sens}
+\item 
+\mbox{\Hypertarget{class_ball_a46f3fa42a5a0d94120e931f0425a5868}\label{class_ball_a46f3fa42a5a0d94120e931f0425a5868}} 
+float {\bfseries m\+\_\+speedX}
+\item 
+\mbox{\Hypertarget{class_ball_a4486c406339e56b8354d97eb150f37ee}\label{class_ball_a4486c406339e56b8354d97eb150f37ee}} 
+float {\bfseries m\+\_\+speedY}
+\item 
+\mbox{\Hypertarget{class_ball_a5255c6514ad2a0986d8a077edbc6c695}\label{class_ball_a5255c6514ad2a0986d8a077edbc6c695}} 
+sf\+::\+Vector2f {\bfseries m\+\_\+origin}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a4193b6acbcba1781d02f6906562fa645}\label{class_ball_a4193b6acbcba1781d02f6906562fa645}} 
+static int {\bfseries m\+\_\+id\+Gen}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+S\+F\+M\+L\+\_\+\+Pong/Ball.\+h\item 
+S\+F\+M\+L\+\_\+\+Pong/ball.\+cpp\end{DoxyCompactItemize}
